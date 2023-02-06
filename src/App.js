@@ -1,10 +1,16 @@
+import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 
 import './App.css';
+import HomePage from './pages/HomePage/HomePage';
+import DetailsPage from './pages/DetailsPage/DetailsPage';
 
 const App = () => (
   <Layout>
-    <h1>Hello World</h1>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/details/:country" element={<DetailsPage />} />
+    </Routes>
   </Layout>
 );
 
