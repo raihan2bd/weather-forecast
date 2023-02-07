@@ -28,11 +28,13 @@ const Countries = () => {
         </select>
       </div>
       <div className={classes.region}>
-        <img src={region.regionMap} alt={region.name} />
+        <div className={classes.region_map}>
+          <img src={region.regionMap} alt={region.name} />
+        </div>
         <div className={classes.region_info}>
           <h2>{region.name}</h2>
-          <span>{`Total Countries: ${region.totalCountries}`}</span>
-          <span>{`Total Population ${region.totalPopulation}`}</span>
+          <span>{`Countries: (${region.totalCountries})`}</span>
+          <span>{`Population: ${region.totalPopulation}`}</span>
         </div>
       </div>
       <ul className={classes.countries}>
