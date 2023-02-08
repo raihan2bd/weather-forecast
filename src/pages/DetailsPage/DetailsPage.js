@@ -1,5 +1,11 @@
 import React from 'react';
 
-const DetailsPage = () => <h2>Hello from DetailsPage</h2>;
+import Details from '../../components/Details/Details';
+
+const DetailsPage = () => (
+  <section>
+    <Details />
+  </section>
+);
 
 export default DetailsPage;
