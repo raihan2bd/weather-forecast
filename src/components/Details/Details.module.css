@@ -1,11 +1,12 @@
 .container {
   position: relative;
   width: 100%;
-  min-height: 60vh;
+  height: 85vh;
   background: #d3437a;
   padding: 1rem;
   border-radius: 5px;
   max-height: 100%;
+  overflow: hidden;
 }
 
 .no_content {
@@ -20,10 +21,11 @@
 }
 
 .map {
-  position: relative;
+  height: 100%;
 }
 
 .map img {
+  max-height: 100%;
   width: 100%;
   opacity: 0.2;
 }
