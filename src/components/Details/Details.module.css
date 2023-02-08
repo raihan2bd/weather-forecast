@@ -14,7 +14,7 @@
 }
 
 .no_content a {
-  background: #ffbb00;
+  background: #fb0;
   color: #fff;
   padding: 5px;
   border-radius: 3px;
@@ -62,7 +62,6 @@
   gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .weather_item {
@@ -92,7 +91,7 @@
 }
 
 @media (min-width: 768px) {
-  .weather_item{
+  .weather_item {
     width: 47%;
   }
 }

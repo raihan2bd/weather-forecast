@@ -11,7 +11,7 @@
   min-width: 150px;
   padding: 8px 15px;
   border-radius: 3px;
-  font-size: 0.90;
+  font-size: 0.9rem;
   color: #d3437a;
   border-color: #ec4c8a;
   outline: none;
@@ -30,6 +30,7 @@
 .region_map {
   width: 60%;
 }
+
 .region_map img {
   width: 100%;
   opacity: 0.6;
