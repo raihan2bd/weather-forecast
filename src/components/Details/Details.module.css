@@ -1,7 +1,7 @@
 .container {
   position: relative;
   width: 100%;
-  min-height: 50vh;
+  min-height: 60vh;
   background: #d3437a;
   padding: 1rem;
   border-radius: 5px;
@@ -10,6 +10,13 @@
 
 .no_content {
   text-align: center;
+}
+
+.no_content a {
+  background: #ffbb00;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
 }
 
 .map {

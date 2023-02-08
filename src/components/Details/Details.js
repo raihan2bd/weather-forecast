@@ -43,7 +43,10 @@ const Details = () => {
                 {' '}
                 Temperature:
               </span>
-              <span>{weather.temp}</span>
+              <span>
+                {weather.temp}
+                &#8451;
+              </span>
             </li>
             <li className={classes.weather_item}>
               <span>
@@ -51,7 +54,11 @@ const Details = () => {
                 {' '}
                 Feels Like:
               </span>
-              {weather.feels_like}
+              <span>
+
+                {weather.feels_like}
+                &#8451;
+              </span>
             </li>
             <li className={classes.weather_item}>
               <span>
@@ -59,8 +66,11 @@ const Details = () => {
                 {' '}
                 Min Temperature:
               </span>
-
-              <span>{weather.temp_min}</span>
+              <span>
+                {weather.temp_min}
+                {' '}
+                &#8451;
+              </span>
             </li>
             <li className={classes.weather_item}>
               <span>
@@ -76,7 +86,10 @@ const Details = () => {
                 {' '}
                 Pressure:
               </span>
-              <span>{weather.pressure}</span>
+              <span>
+                {weather.pressure}
+                &#13169;
+              </span>
             </li>
             <li className={classes.weather_item}>
               <span>
@@ -84,7 +97,11 @@ const Details = () => {
                 {' '}
                 Humidity:
               </span>
-              <span>{weather.humidity}</span>
+              <span>
+                {weather.humidity}
+                {' '}
+                %
+              </span>
             </li>
             <li className={classes.weather_item}>
               <span>
@@ -92,7 +109,11 @@ const Details = () => {
                 {' '}
                 Wind Speed:
               </span>
-              <span>{weather.wind_speed}</span>
+              <span>
+                {weather.wind_speed}
+                {' '}
+                meter/sec
+              </span>
             </li>
             <li className={classes.weather_item}>
               <span>
@@ -100,7 +121,11 @@ const Details = () => {
                 {' '}
                 Cloud cover:
               </span>
-              <span>{weather.cloud}</span>
+              <span>
+                {weather.cloud}
+                {' '}
+                %
+              </span>
             </li>
           </ul>
         </div>
