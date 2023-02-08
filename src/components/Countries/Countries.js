@@ -1,17 +1,24 @@
-import React, { useState } from 'react';
-import { useSelector } from 'react-redux';
+import React, { useEffect, useState } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { fetchCounties } from '../../redux/countries/countries';
 
 import classes from './Countries.module.css';
 import Country from './Country';
 
 const Countries = () => {
   const [currentRegion, setCurrentRegion] = useState('Asia');
+
   const data = useSelector((state) => state.countries);
+  const dispatch = useDispatch();
   const { region, countries } = data;
 
   const regionChangeHandler = (e) => {
     setCurrentRegion(e.target.value);
   };
+
+  useEffect(() => {
+    dispatch(fetchCounties(currentRegion));
+  }, [dispatch, currentRegion]);
 
   return (
     <div className={classes.container}>
@@ -42,7 +49,7 @@ const Countries = () => {
           <Country
             key={country.id}
             name={country.name}
-            capital={country.capital}
+            capital={country.capital || country.name}
             population={country.population}
             cc={country.cc}
             flag={country.flag}

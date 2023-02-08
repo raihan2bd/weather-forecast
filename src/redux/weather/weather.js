@@ -2,6 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
   id: 1210997,
+  name: 'Bangladesh',
   description: 'clear sky',
   temp: 22.03,
   feels_like: 21.25,
