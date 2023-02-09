@@ -28,7 +28,7 @@
 
 # 💻 Weather Forecast <a name="about-project"></a>
 
-> **Weather-Forecast** is a Microverce React capstone project. Using this project users can see a list of countries with a region with country details and also see the weather of that country.
+> **Weather-Forecast** is a Microverce React capstone project. Using this project users can see a list of countries in a particularl region with country details and also see the weather of that country.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -60,8 +60,8 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 > ## Project demo
->
-> Site is under construction and the Project Demo will update soon.
+![Capture](https://user-images.githubusercontent.com/35267447/217789912-ead664b3-086f-4de2-8df8-e0229f60ae8a.PNG)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,7 +157,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Without Microverse Help this project not compleated at all so thanks a lot Microverse for giving us this kind of opertunity.
 >Also I would like to thanks 
-Nelson Sakva for Original Design Official Behance Page 👉 [@NelsonSakva](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)
+Nelson Sakva for Original Design Official Behance Page 👉 [@NelsonSakva](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
