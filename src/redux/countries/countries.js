@@ -22,6 +22,10 @@ export const fetchCounties = createAsyncThunk(
         lat: item.latlng[0],
         lon: item.latlng[1],
       };
+    }).sort((a, b) => {
+      if (a.name < b.name) { return -1; }
+      if (a.name > b.name) { return 1; }
+      return 0;
     });
     return {
       region: {
