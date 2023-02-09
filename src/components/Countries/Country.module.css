@@ -6,6 +6,19 @@
   position: relative;
   margin-bottom: 1rem;
   background: #d3437a;
+  transition: transform 0.1s ease-in-out;
+}
+
+.country:active {
+  transform: translateY(-3px);
+}
+
+.country a {
+  color: #fff;
+}
+
+.country a:active {
+  color: #ffaecd;
 }
 
 .map {
@@ -25,12 +38,12 @@
   padding: 1rem;
 }
 
-.country_header a {
+.arrowBtn {
   color: #fff;
   font-size: 1.5rem;
 }
 
-.country_header a:active {
+.arrowBtn:active {
   color: #d3437a;
 }
 
@@ -47,5 +60,11 @@
 @media (min-width: 768px) {
   .country {
     width: 32.33%;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .country:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   }
 }

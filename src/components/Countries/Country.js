@@ -8,21 +8,23 @@ const Country = ({
   name, capital, population, cc, flag, map,
 }) => (
   <li className={classes.country}>
-    <img className={classes.map} src={map} alt={name} />
-    <div className={classes.country_info}>
-      <div className={classes.country_header}>
-        <img className={classes.flag} src={flag} alt={name} />
-        <Link to={`/details/${cc}`}><FaArrowCircleRight /></Link>
-      </div>
-      <div className={classes.country_footer}>
-        <h3>{name}</h3>
-        <span>{`Capital: ${capital}`}</span>
-        <span>
-          {`Population: ${population}
+    <Link to={`/details/${cc}`}>
+      <img className={classes.map} src={map} alt={name} />
+      <div className={classes.country_info}>
+        <div className={classes.country_header}>
+          <img className={classes.flag} src={flag} alt={name} />
+          <span className={classes.arrowBtn}><FaArrowCircleRight /></span>
+        </div>
+        <div className={classes.country_footer}>
+          <h3>{name}</h3>
+          <span>{`Capital: ${capital}`}</span>
+          <span>
+            {`Population: ${population}
           `}
-        </span>
+          </span>
+        </div>
       </div>
-    </div>
+    </Link>
   </li>
 );
 
