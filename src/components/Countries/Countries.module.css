@@ -1,0 +1,57 @@
+
+.region_option {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.region_option select {
+  min-width: 150px;
+  padding: 8px 15px;
+  border-radius: 3px;
+  font-size: 0.9rem;
+  color: #d3437a;
+  border-color: #ec4c8a;
+  outline: none;
+}
+
+.region {
+  background: #d3437a;
+  margin-top: 1.2rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.region_map {
+  width: 60%;
+}
+
+.region_map img {
+  width: 100%;
+  opacity: 0.6;
+}
+
+.region_info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.region_info h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.countries {
+  list-style: none;
+  display: flex;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
